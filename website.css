@@ -1,0 +1,80 @@
+body{
+background-color:DarkSlateGrey;
+}
+
+h1 { 
+color: white;
+text-align: center;
+font-family : Ariel; 
+font-size : 50px; 
+font-weight : bold 
+}
+
+h2 { 
+color: white;
+font-family : Ariel; 
+}
+
+h4 { 
+color: white;
+font-family : Georgia; 
+font-size : 20px; 
+font-weight : bold 
+}
+
+p { 
+color: white;
+font-family : Arial; 
+font-size : 16px; 
+font-weight : regular 
+}
+
+ul { 
+color: white;
+font-family : Verdana; 
+font-size : 15px; 
+font-weight : bold 
+}
+
+ol { 
+color: white;
+font-family : Verdana; 
+font-size : 15px; 
+font-weight : bold 
+}
+
+/* Container holding the image and the text */
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+/* Centered text */
+.centered {
+  position: absolute;
+  font-size: 50px;
+  color: #333333;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #333333;
+  display: flex;
+}
+
+ul li a {
+  display: block;
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul li a:hover {
+  background-color: #111111;
+}
