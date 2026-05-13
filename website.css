@@ -78,3 +78,16 @@ ul li a {
 ul li a:hover {
   background-color: #111111;
 }
+
+table, th, td {
+  border: 1px solid;
+  color: white;
+}
+
+th, td {
+  padding: 10px;
+}
+
+table {
+  width: 100%;
+}
